@@ -1,0 +1,164 @@
+pre { 
+    visibility: hidden;
+}
+
+.hide {
+    visibility: hidden;
+}
+.hidehand {
+  padding-left: 30%;
+}
+h1 {
+    font-family: address-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 31%;
+}
+.chap {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#frontis {
+    padding-left: 35%;
+}
+.captionnomb {
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color:#0B549B;
+    padding-left: 35%;
+}
+.caption2nomtright {
+    font-family: mrlackboughs-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 65%;
+
+}
+.title {
+    font-family: address-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 43%;
+    font-size: 60%;
+}
+
+.titlemt4 {
+    font-family: address-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 55%;
+    font-size: 60%;
+}
+.figcenterfig120 {
+    padding-left: 47%;
+} {
+    
+}
+.line {
+    margin-left: 43%;
+    margin-right: 25%;
+}
+#Contents {
+    font-family: geneo-std, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 43%;
+
+}
+table {
+    padding-left: 25%;
+}
+.tdr {
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.tdlhang {
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  
+
+
+}
+.tdlhang:nth-child  {
+ 
+    color: rgb(202, 16, 16);
+
+
+}
+
+.tdr2 {
+    font-family: geneo-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 32%;
+ 
+
+}
+.tdlv {
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+   
+}
+#Illustrations {
+    font-family: geneo-std, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 41%;
+
+}
+
+ a:link {
+     color: black;
+     text-decoration-line: none;
+ }
+ a:visited {
+     color: rgb(63, 150, 207);
+ }
+
+h2 {
+    font-family: address-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 33%;
+    
+
+   
+ 
+}
+.ornate {
+    font-family: mr-donaldson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+   
+        
+}
+h3 {
+    font-family: mr-donaldson, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 43%;
+    font-size: 2.5em;
+
+
+}
+.fig100 {
+   visibility: hidden;
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 20%;
+    font-family: laca, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
