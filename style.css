@@ -1,25 +1,25 @@
 pre { 
-    visibility: hidden;
+   text-align: center;
 }
 
 .hide {
     visibility: hidden;
 }
 .hidehand {
-  padding-left: 30%;
+  padding-left: 25%;
 }
 h1 {
     font-family: address-sans-pro, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-left: 31%;
+    margin-left: 26%;
 }
 .chap {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 12%;
 }
 #frontis {
-    padding-left: 35%;
+    padding-left: 30%;
 }
 .captionnomb {
     font-family: geneo-std, sans-serif;
@@ -39,31 +39,40 @@ h1 {
     font-family: address-sans-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-left: 43%;
-    font-size: 60%;
+    padding-left: 13%;
+    text-align: center;
 }
 
 .titlemt4 {
     font-family: address-sans-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-left: 55%;
-    font-size: 60%;
+    padding-left: 13%;
+    text-align: center;
 }
 .figcenterfig120 {
-    padding-left: 47%;
-} {
+    padding-left: 48%;
+} 
     
-}
 .line {
-    margin-left: 43%;
+    margin-left: 33%;
     margin-right: 25%;
 }
 #Contents {
-    font-family: geneo-std, sans-serif;
-    font-weight: 800;
+    font-family: mr-donaldson, sans-serif;
+    font-weight: 200;
     font-style: normal;
-    padding-left: 43%;
+    padding-left: 24%;
+    font-size: 3%;
+  
+
+}
+.tdr2 {
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 30%;
+ 
 
 }
 table {
@@ -80,25 +89,10 @@ table {
     font-family: geneo-std, sans-serif;
     font-weight: 400;
     font-style: italic;
-  
-
-
-}
-.tdlhang:nth-child  {
- 
-    color: rgb(202, 16, 16);
 
 
 }
 
-.tdr2 {
-    font-family: geneo-std, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    padding-left: 32%;
- 
-
-}
 .tdlv {
     font-family: geneo-std, sans-serif;
     font-weight: 400;
@@ -107,10 +101,11 @@ table {
    
 }
 #Illustrations {
-    font-family: geneo-std, sans-serif;
-    font-weight: 800;
+    font-family: mr-donaldson, sans-serif;
+    font-weight: 200;
     font-style: normal;
-    padding-left: 41%;
+    padding-left: 20%;
+    font-size: 3%;
 
 }
 
@@ -126,26 +121,40 @@ h2 {
     font-family: address-sans-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-left: 33%;
+    text-align: center;
     
 
    
  
 }
+
 .ornate {
     font-family: mr-donaldson, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1em;
+    text-align: center;
+    
    
         
 }
-h3 {
+.ornate:nth-of-type(1) {
     font-family: mr-donaldson, sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
-    padding-left: 43%;
+    font-size: 2em;
+    text-align: center;
+    
+   
+        
+}
+
+h3 {
+    font-family: p22-fllw-eaglefeather-sc, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 2.5em;
+    text-align: center;
 
 
 }
@@ -159,6 +168,561 @@ p {
     font-family: laca, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: .5em;
+    padding-left: 10%;
 }
 
+a[title].pagenum:after {
+    content: attr(title);
+    display: block;
+    border-top: 1px solid; border-bottom: 1px solid;
+    padding:5px;
+    color: #999999;
+    padding-right: 4%;
+    position: absolute;
+    right: 0;
+    font-family: mrlackboughs-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 
+    }
+    #chevron {
+        position: relative;
+        padding: 12px;
+        margin-bottom: 70px;
+        height: 9px;
+        width: 90px;
+        margin-right: 15%;
+        float: right;
+       
+   
+      }
+      #chevron:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 51%;
+        background: #ACACAD;
+        transform: skew(0deg, 6deg);
+        
+      }
+      #chevron:after {
+        content: '';
+        position: absolute;
+        top: 0; 
+        right: 0;
+        height: 100%;
+        width: 50%;
+        background: #ACACAD;
+        transform: skew(0deg, -6deg);
+        
+  
+      }
+      
+    #magnifying-glass {
+        font-size: 2em;
+        display: inline-block;
+        width: .2em;
+        box-sizing: content-box;
+        height: 0.2em;
+        border: 0.1em solid rgb(102, 99, 99);
+        position: relative;
+        border-radius: 0.2em;
+        margin-right: 1%;
+   
+      
+      }
+      #magnifying-glass:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        right: -0.25em;
+        bottom: -0.1em;
+        border-width: 0;
+        background: #707070;
+        width: 0.3em;
+        height: 0.07em;
+        transform: rotate(45deg);
+     
+      }
+      #man {
+          padding-left: 35%;
+      }
+      .caption {
+        font-family: geneo-std, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color:#0B549B;
+        padding-left: 42%;
+      }
+      .caption:first-child {
+        font-family: geneo-std, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color:#0B549B;
+        padding-left: 42%;
+      }
+  
+      .tb {
+        margin-left: 20%;
+        margin-right: 12%;
+      }
+      .centernomb {
+      font-family: geneo-std, sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      color:#0B549B;
+      text-align: center;
+    }
+    .rightnomt {
+        font-family: geneo-std, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color:#0B549B;
+        text-align: center;
+       
+    }
+    #door {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #all {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #sherlock {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #glancing {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #they {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #maid {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #holmes2 {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #at {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #have {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #good {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #not {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #will {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #clapped {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+    #delighted {
+        margin-left: 20%;
+        margin-right: 12%;
+    }
+
+    .books {
+        font-family: mr-donaldson, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 3%;
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-color: rgb(123, 182, 68);
+    }
+
+    pre { 
+        text-align: center;
+     }
+     
+     .hide {
+         visibility: hidden;
+     }
+     .hidehand {
+       padding-left: 25%;
+     }
+     h1 {
+         font-family: address-sans-pro, sans-serif;
+         font-weight: 600;
+         font-style: normal;
+         margin-left: 26%;
+
+     }
+     .chap {
+         margin-left: 20%;
+         margin-right: 12%;
+     }
+     #frontis {
+         padding-left: 30%;
+     }
+     .captionnomb {
+         font-family: geneo-std, sans-serif;
+         font-weight: 400;
+         font-style: italic;
+         color:#0B549B;
+         padding-left: 35%;
+     }
+     .caption2nomtright {
+         font-family: mrlackboughs-pro, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         padding-left: 65%;
+     
+     }
+     .title {
+         font-family: address-sans-pro, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         padding-left: 13%;
+         text-align: center;
+     }
+     
+     .titlemt4 {
+         font-family: address-sans-pro, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         padding-left: 13%;
+         text-align: center;
+     }
+     .figcenterfig120 {
+         padding-left: 48%;
+     } 
+         
+     .line {
+         margin-left: 33%;
+         margin-right: 25%;
+     }
+     #Contents {
+         font-family: mr-donaldson, sans-serif;
+         font-weight: 200;
+         font-style: normal;
+         padding-left: 24%;
+         font-size: 3%;
+       
+     
+     }
+     .tdr2 {
+         font-family: geneo-std, sans-serif;
+         font-weight: 400;
+         font-style: italic;
+         padding-left: 30%;
+      
+     
+     }
+     table {
+         padding-left: 25%;
+     }
+     .tdr {
+         font-family: geneo-std, sans-serif;
+         font-weight: 400;
+         font-style: italic;
+     
+     }
+     
+     .tdlhang {
+         font-family: geneo-std, sans-serif;
+         font-weight: 400;
+         font-style: italic;
+     
+     
+     }
+     
+     .tdlv {
+         font-family: geneo-std, sans-serif;
+         font-weight: 400;
+         font-style: italic;
+         
+        
+     }
+     #Illustrations {
+         font-family: mr-donaldson, sans-serif;
+         font-weight: 200;
+         font-style: normal;
+         padding-left: 20%;
+         font-size: 3%;
+     
+     }
+     
+      a:link {
+          color: black;
+          text-decoration-line: none;
+      }
+      a:visited {
+          color: rgb(63, 150, 207);
+      }
+     
+     h2 {
+         font-family: address-sans-pro, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         text-align: center;
+         
+     
+        
+      
+     }
+     
+     .ornate {
+         font-family: mr-donaldson, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 1em;
+         text-align: center;
+         
+        
+             
+     }
+     .ornate:nth-of-type(1) {
+         font-family: mr-donaldson, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 2em;
+         text-align: center;
+         
+        
+             
+     }
+     
+     h3 {
+         font-family: p22-fllw-eaglefeather-sc, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 2.5em;
+         text-align: center;
+     
+     
+     }
+     .fig100 {
+        visibility: hidden;
+     }
+     
+     p {
+         margin-left: 15%;
+         margin-right: 20%;
+         font-family: laca, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: .5em;
+         padding-left: 10%;
+     }
+     
+     a[title].pagenum:after {
+         content: attr(title);
+         display: block;
+         border-top: 1px solid; border-bottom: 1px solid;
+         padding:5px;
+         color: #999999;
+         padding-right: 4%;
+         position: absolute;
+         right: 0;
+         font-family: mrlackboughs-pro, sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 1.2em;
+     
+         }
+         #chevron {
+            position: relative;
+            padding: 12px;
+            margin-bottom: 70px;
+            height: 9px;
+            width: 90px;
+            margin-right: 15%;
+            float: right;
+           
+       
+          }
+          #chevron:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 51%;
+            background: rgb(252, 252, 255);
+            transform: skew(0deg, 6deg);
+            
+          }
+          #chevron:after {
+            content: '';
+            position: absolute;
+            top: 0; 
+            right: 0;
+            height: 100%;
+            width: 50%;
+            background: #ACACAD;
+            transform: skew(0deg, -6deg);
+            
+      
+          }
+         
+           
+         #magnifying-glass {
+             font-size: 2em;
+             display: inline-block;
+             width: .2em;
+             box-sizing: content-box;
+             height: 0.2em;
+             border: 0.1em solid rgb(102, 99, 99);
+             position: relative;
+             border-radius: 0.2em;
+             margin-right: 1%;
+        
+           
+           }
+           #magnifying-glass:before {
+             content: "";
+             display: inline-block;
+             position: absolute;
+             right: -0.25em;
+             bottom: -0.1em;
+             border-width: 0;
+             background: #707070;
+             width: 0.3em;
+             height: 0.07em;
+             transform: rotate(45deg);
+          
+           }
+           #man {
+               padding-left: 35%;
+           }
+           .caption {
+             font-family: geneo-std, sans-serif;
+             font-weight: 400;
+             font-style: italic;
+             color:#0B549B;
+             padding-left: 42%;
+           }
+           .caption:first-child {
+             font-family: geneo-std, sans-serif;
+             font-weight: 400;
+             font-style: italic;
+             color:#0B549B;
+             padding-left: 42%;
+           }
+       
+           .tb {
+             margin-left: 20%;
+             margin-right: 12%;
+           }
+           .centernomb {
+           font-family: geneo-std, sans-serif;
+           font-weight: 400;
+           font-style: italic;
+           color:#0B549B;
+           text-align: center;
+         }
+         .rightnomt {
+             font-family: geneo-std, sans-serif;
+             font-weight: 400;
+             font-style: italic;
+             color:#0B549B;
+             text-align: center;
+            
+         }
+         #door {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #all {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #sherlock {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #glancing {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #they {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #maid {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #holmes2 {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #at {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #have {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #good {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #not {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #will {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #clapped {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+         #delighted {
+             margin-left: 20%;
+             margin-right: 12%;
+         }
+     
+         .books {
+             font-family: mr-donaldson, sans-serif;
+             font-weight: 200;
+             font-style: normal;
+             font-size: 3%;
+             text-align: center;
+         }
+     
+         ul {
+             text-align: center;
+         }
+
+    
+}
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body {
+        background-color: rgb(68, 70, 182);
+    }
+
+}
